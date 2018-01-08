@@ -8,7 +8,7 @@ You can feed this application with an S3 bucket and it will take the folders and
 
 The example image shows contents of an album. When the user clicks onto an image, it will be displayed in some kind of lightbox. The whole visual presentation is quite bare, so it will be easy to customize it to your needs.
 
-![preview](example.png "Album presentation looks something like this")
+<img alt="preview of an album's content" align="center" src="example.png" />
 
 ## Setup
 

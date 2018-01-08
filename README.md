@@ -2,11 +2,7 @@
 
 A very lightweight nodejs Amazon S3 photo album viewer.
 
-You can feed this application with an S3 bucket and it will take the folders and image files and render them into a nice gallery website.
-
-If you want to host your photos in a cheap fashion, then you could for instance host this application on a free [heroku](https://www.heroku.com/) instance.
-
-Furthermore it is benificial to host your photos on AWS, because you can backup them very easily to Galcier.
+You can feed this application with an S3 bucket and it will take the folders and image files and render them into a nice gallery website. If you want to host your photos in a cheap fashion, then you could for instance host this application on a free [heroku](https://www.heroku.com/) instance. Finally it is benificial to host your photos on AWS, because you can backup them very easily to Galcier.
 
 ## UI & Customizability
 
@@ -30,4 +26,4 @@ Your bucket structure should implement following structure:
 
 ## Run
 
-Simple invoke `yarn start` to run the application. It will then host all the albums on port 3000.
+Simply invoke `yarn start` to run the application. It will then host all the albums on port 3000.

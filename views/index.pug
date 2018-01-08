@@ -1,0 +1,13 @@
+html
+  head
+    title Gall3ry
+    link(rel='stylesheet',href='styles/app.css')
+    script(src='scripts/app.js')
+  body
+    h1 Photo Albums
+    center
+      each album in albums
+        a(href=album.prefix)
+          div(style='margin-bottom:1rem')
+            img(src='img/album.png',style='vertical-align:text-bottom;margin-right:0.5rem')
+            span(style='font-size:2rem;line-height:2rem') #{album.name}

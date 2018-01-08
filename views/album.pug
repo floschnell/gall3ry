@@ -1,0 +1,21 @@
+html
+  head
+    title Gall3ry >> #{name}
+    link(rel='stylesheet',href='../styles/app.css')
+    script(src='../scripts/app.js')
+  body
+    a(id='anfang')
+    h1 Album: #{name}
+    center
+      a(href='..',style='font-size:2rem')
+        img(src='../img/back.png',style='vertical-align:text-bottom;margin-right:.5rem')
+        | Overview
+      div(id='image-container',onscroll='function (e) { e.stopPropagation(); };',class='inactive')
+        img(id='btn_download',src='../img/download.png',class='icon')
+        img(src='../img/loader.gif',id='loader')
+      div(id='album',style='margin-bottom:20px;')
+        each image in images
+          img(class='preview',src!='https://s3.eu-central-1.amazonaws.com/floschnell-photography/' + image.url,style='transform:rotate(' + image.rotation + 'deg)scale(0.8)',onclick='toggleImage(this,"' + image.full_suffix + '")')
+      a(href='#anfang',style='font-size:2rem')
+        img(src='../img/up.png',style='vertical-align:text-bottom;margin-right:.5rem')
+        | Back to top

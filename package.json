@@ -7,7 +7,7 @@
     "aws-sdk": "^2.2.26",
     "basic-auth-connect": "^1.0.0",
     "express": "^4.13.3",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^3.0.1"
   },
   "main": "app.js",
   "scripts": {

@@ -4,7 +4,7 @@
   "author": "Florian Schnell <floschnell@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.2.26",
+    "aws-sdk": "^2.814.0",
     "basic-auth-connect": "^1.0.0",
     "express": "^4.13.3",
     "pug": "^2.0.0-rc.4"
